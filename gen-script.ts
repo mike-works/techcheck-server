@@ -9,10 +9,11 @@ const genScript: Handler = (
   context: Context,
   cb: Callback
 ) => {
+  let version = event.queryStringParameters.v || 'current';
   S3.getObject(
     {
       Bucket: 'mikeworks-libs',
-      Key: 'techcheck/current/index.js'
+      Key: `techcheck/${version}/index.js`
     },
     (err, data) => {
       if (!data) {

@@ -6,14 +6,14 @@ cache:
   directories:
     - node_modules
 
-after_success:
-- echo "Preparing AWS Lambda Deploy"
-- npm install -g serverless
-- sls deploy
+# after_success:
+# - echo "Preparing AWS Lambda Deploy"
+# - npm install -g serverless
+# - sls deploy
 
-# deploy:
-#   provider: script
-#   script: ./scripts/deploy.sh
-#   on:
-#     # condition: $DEPLOY_BUILD = true
-#     branch: master
+deploy:
+  provider: script
+  script: ./scripts/deploy.sh
+  on:
+    # condition: $DEPLOY_BUILD = true
+    branch: master
