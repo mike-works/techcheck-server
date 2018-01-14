@@ -16,7 +16,12 @@ const genScript: Handler = (
     },
     (err, data) => {
       if (!data) {
-        cb(null, `No S3 data`);
+        cb(null, {
+          statusCode: 200,
+          body: `/** There is a problem with the script generation service **/
+console.log('There is a problem with the script generation service');
+`
+        });
         return;
       }
       const response = {
