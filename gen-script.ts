@@ -15,6 +15,7 @@ const genScript: Handler = (
       Key: 'techcheck/index.js'
     },
     (err, data) => {
+      if (!data) cb(null, `No S3 data`);
       const response = {
         statusCode: 200,
         body: data.Body.toString()
