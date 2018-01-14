@@ -8,15 +8,22 @@
   "scripts": {
     "start": "./node_modules/.bin/serverless offline start",
     "deploy": "./node_modules/.bin/serverless deploy",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha -o test/mocha.opts",
+    "test:watch": "./node_modules/.bin/mocha-typescript-watch"
   },
   "devDependencies": {
     "@types/aws-lambda": "0.0.22",
+    "@types/chai": "^4.1.0",
+    "@types/mocha": "^2.2.46",
     "@types/node": "^8.0.57",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "mocha-typescript": "^1.1.12",
     "serverless": "^1.25.0",
     "serverless-offline": "^3.16.0",
     "serverless-webpack": "^4.0.0",
     "ts-loader": "^2.3.7",
+    "ts-node": "^4.1.0",
     "typescript": "^2.5.2",
     "webpack": "^3.6.0"
   },
