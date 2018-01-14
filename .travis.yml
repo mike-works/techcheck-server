@@ -2,14 +2,13 @@ language: node_js
 node_js:
 - 'stable'
 
-
 cache:
   directories:
     - node_modules
 
 deploy:
   provider: script
-  script: scripts/deploy.sh
+  script: ./scripts/deploy.sh
   on:
     # condition: $DEPLOY_BUILD = true
     branch: master
