@@ -12,14 +12,16 @@ const genScript: Handler = (
   S3.getObject(
     {
       Bucket: 'mikeworks-libs',
-      Key: 'techcheck/index.js'
+      Key: 'techcheck/current/index.js'
     },
     (err, data) => {
       if (!data) {
         cb(null, {
           statusCode: 200,
-          body: `/** There is a problem with the script generation service **/
-console.log('There is a problem with the script generation service');
+          body: `/** There is a problem with the script generation service. Please try again later **/
+
+
+console.log('⚠️ There is a problem with the script generation service. Please try again later ⚠️');
 `
         });
         return;
