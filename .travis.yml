@@ -11,4 +11,5 @@ deploy:
   provider: script
   script: scripts/deploy.sh
   on:
+    condition: $DEPLOY_BUILD = true
     branch: master
