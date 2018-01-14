@@ -9,7 +9,9 @@ const genScript: Handler = (
   context: Context,
   cb: Callback
 ) => {
-  let version = event.queryStringParameters.v || 'current';
+  let version = event.queryStringParameters
+    ? event.queryStringParameters.v || 'current'
+    : 'current';
   S3.getObject(
     {
       Bucket: 'mikeworks-libs',
@@ -28,16 +30,16 @@ console.log('⚠️ There is a problem with the script generation service. Pleas
         return;
       }
       // let cfg = `global.TechCheckConfig`
-      let cfg = {
-        verify: [
-          { name: 'openssl', version: /2.2.7/ },
-          { name: 'node', version: { semver: '^9.2.0' } },
-          { name: 'postgres', version: { semver: { min: '9.0.0' } } }
-        ]
-      };
+      // let cfg = ;
       const response = {
         statusCode: 200,
-        body: `global.TechCheckConfig = ${JSON.stringify(cfg)}
+        body: `global.TechCheckConfig = {
+  verify: [
+    { name: 'openssl', version: /2.2.7/ },
+    { name: 'node', version: { semver: '^9.2.0' } },
+    { name: 'postgres', version: { semver: { min: '9.0.0' } } }
+  ]
+};
 
 
 
