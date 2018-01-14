@@ -27,9 +27,21 @@ console.log('⚠️ There is a problem with the script generation service. Pleas
         });
         return;
       }
+      // let cfg = `global.TechCheckConfig`
+      let cfg = {
+        verify: [
+          { name: 'openssl', version: /2.2.7/ },
+          { name: 'node', version: { semver: '^9.2.0' } },
+          { name: 'postgres', version: { semver: { min: '9.0.0' } } }
+        ]
+      };
       const response = {
         statusCode: 200,
-        body: data.Body.toString()
+        body: `global.TechCheckConfig = ${JSON.stringify(cfg)}
+
+
+
+${data.Body.toString()}`
       };
       cb(null, response);
     }
