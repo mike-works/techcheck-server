@@ -12,9 +12,15 @@ provider:
   region: us-west-2
 
 functions:
-  get-script:
-    handler: gen-script.default
+  run:
+    handler: bootstrap.default
     events:
       - http:
           method: get
           path: /preflight
+  get-script:
+    handler: get-script.default
+    events:
+      - http:
+          method: get
+          path: /preflight/script
