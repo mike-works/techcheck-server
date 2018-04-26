@@ -12,7 +12,7 @@
     "test:watch": "./node_modules/.bin/mocha-typescript-watch"
   },
   "devDependencies": {
-    "@types/aws-lambda": "0.0.27",
+    "@types/aws-lambda": "8.10.3",
     "@types/aws-sdk": "^2.7.0",
     "@types/chai": "^4.1.0",
     "@types/mocha": "^2.2.46",
