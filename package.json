@@ -30,7 +30,7 @@
     "mocha-typescript": "1.1.17",
     "semantic-release": "15.10.8",
     "serverless": "1.32.0",
-    "serverless-offline": "3.31.1",
+    "serverless-offline": "3.31.2",
     "serverless-webpack": "4.4.0",
     "travis-deploy-once": "5.0.9",
     "ts-loader": "3.5.0",
