@@ -34,7 +34,7 @@
     "serverless-webpack": "4.4.0",
     "travis-deploy-once": "5.0.9",
     "ts-loader": "3.5.0",
-    "ts-node": "4.1.0",
+    "ts-node": "7.0.1",
     "typescript": "2.9.2",
     "webpack": "3.12.0"
   },
