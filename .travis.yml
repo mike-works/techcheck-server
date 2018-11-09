@@ -1,16 +1,18 @@
 language: node_js
 node_js:
-- 'stable'
-
+  - '8'
+yarn: true
 cache:
   directories:
     - node_modules
 
-after_success:
-- echo "Preparing AWS Lambda Deploy"
-- npm install -g serverless
-- sls deploy
+script:
+  - yarn test && yarn travis-deploy-once "yarn semantic-release"
 
+after_success:
+  - echo "Preparing AWS Lambda Deploy"
+  - yarn global add serverless
+  - sls deploy
 # deploy:
 #   provider: script
 #   script: ./scripts/deploy.sh
