@@ -951,10 +951,10 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@types/aws-lambda@0.0.27":
-  version "0.0.27"
-  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-0.0.27.tgz#11bba7b856a6ba3f0c7b679956371e6315cd029c"
-  integrity sha512-mtyqkepFOuD2ACvIvJVNvwMw04VvGuaqg0LvP6GTPliMO5og8bmEmwVEgqUg0hRgReivQAUWvQImsRU3v+1HMg==
+"@types/aws-lambda@8.10.15":
+  version "8.10.15"
+  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.15.tgz#ea7094e9cacbcfa5e1b6b15baa12b7a438857fc7"
+  integrity sha512-C8yoqVslZ0CxQBTsBIBzAlG+JfevToteoJxzqvYSWGUcnw3oBu05Pe2P/I4hg3udR9qpsCJowXA65L9NYnJbrA==
 
 "@types/aws-sdk@2.7.0":
   version "2.7.0"
