@@ -13,7 +13,7 @@ install:
   - yarn install --no-lockfile --non-interactive
 
 script:
-  - yarn test && yarn travis-deploy-once "yarn semantic-release"
+  - yarn test
 
 after_success:
   - echo "Preparing AWS Lambda Deploy"
