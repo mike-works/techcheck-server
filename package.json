@@ -28,7 +28,7 @@
     "husky": "1.2.0",
     "mocha": "4.1.0",
     "mocha-typescript": "1.1.17",
-    "semantic-release": "15.12.1",
+    "semantic-release": "15.12.2",
     "serverless": "1.33.2",
     "serverless-offline": "3.31.3",
     "serverless-webpack": "4.4.0",
