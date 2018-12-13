@@ -25,7 +25,7 @@
     "@types/mocha": "5.2.5",
     "@types/node": "9.6.40",
     "chai": "4.2.0",
-    "husky": "1.2.0",
+    "husky": "1.2.1",
     "mocha": "5.2.0",
     "mocha-typescript": "1.1.17",
     "semantic-release": "15.12.4",
