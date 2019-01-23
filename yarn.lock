@@ -7430,13 +7430,11 @@ serve-static@1.13.2:
     parseurl "~1.3.2"
     send "0.16.2"
 
-serverless-offline@3.32.0:
-  version "3.32.0"
-  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-3.32.0.tgz#2acbbed82bc83d9a840e279519035637bdea7b27"
-  integrity sha512-rCBWouAyD8awq67yQuE9Pem3OWj9GpU25USR84LoGCJ9OV0FLLJwOg6LAPSPNh1SGP/kMj7SY9EHJAJWIw/lAQ==
+serverless-offline@4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-4.2.0.tgz#79e6adfd935812b2ef27ffc3ffd967400d83cf3c"
+  integrity sha512-pAErotlNGFPqWuPUKD2gYC3KmqElM7aCkv4nkGewX7AamLH49feRGJLiZQH79+Rj5ysk/sQCFk/K9vhew5dDIw==
   dependencies:
-    "@babel/core" "^7.0.0"
-    "@babel/register" "^7.0.0"
     boom "^7.3.0"
     cryptiles "^4.1.2"
     h2o2 "^6.1.0"
@@ -7445,8 +7443,7 @@ serverless-offline@3.32.0:
     js-string-escape "^1.0.1"
     jsonpath-plus "^0.16.0"
     jsonwebtoken "^8.3.0"
-    lodash "^4.17.10"
-    uuid "^3.3.2"
+    trim-newlines "^2.0.0"
     velocityjs "^1.1.2"
 
 serverless-webpack@4.4.0:
