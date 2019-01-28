@@ -19,7 +19,7 @@
     "@commitlint/travis-cli": "7.3.2",
     "@mike-north/js-lib-renovate-config": "1.1.5",
     "@mike-north/js-lib-semantic-release-config": "1.0.1",
-    "@types/aws-lambda": "8.10.16",
+    "@types/aws-lambda": "8.10.18",
     "@types/aws-sdk": "2.7.0",
     "@types/chai": "4.1.7",
     "@types/mocha": "5.2.5",
