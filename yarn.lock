@@ -1529,7 +1529,7 @@ archiver@^1.1.0:
     walkdir "^0.0.11"
     zip-stream "^1.1.0"
 
-archiver@^2.0.0:
+archiver@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/archiver/-/archiver-2.1.1.tgz#ff662b4a78201494a3ee544d3a33fe7496509ebc"
   integrity sha1-/2YrSnggFJSj7lRNOjP+dJZQnrw=
@@ -1819,7 +1819,7 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
-bluebird@^3.5.0, bluebird@^3.5.1, bluebird@^3.5.3:
+bluebird@^3.5.0, bluebird@^3.5.1, bluebird@^3.5.3, bluebird@^3.5.4:
   version "3.5.5"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.5.tgz#a8d0afd73251effbbd5fe384a77d73003c17a71f"
   integrity sha512-5am6HnnfN+urzt4yfg7IgTbotDjIT/u8AJpEt0sIU9FtXfVeezXAPKswrG+xKUCOYAINpSdgZVDU6QFh+cuH3w==
@@ -3833,7 +3833,7 @@ fs-extra@^0.26.7:
     path-is-absolute "^1.0.0"
     rimraf "^2.2.8"
 
-fs-extra@^4.0.2:
+fs-extra@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-4.0.3.tgz#0d852122e5bc5beb453fb028e9c0c9bf36340c94"
   integrity sha512-q6rbdDd1o2mAnQreO7YADIxf/Whx4AHBiRf6d+/cVT8h44ss+lHgxf1FemcqDnQt9X3ct4McHr+JMGlYSsK7Cg==
@@ -7930,18 +7930,18 @@ serverless-offline@5.0.1:
     trim-newlines "^3.0.0"
     velocityjs "^1.1.3"
 
-serverless-webpack@4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/serverless-webpack/-/serverless-webpack-4.4.0.tgz#cae551a52fe9c7112107ef0a98786702025c5265"
-  integrity sha512-yezTtL5on2QQfv1wG2tWLEu1UOjV8mLco4HfE9nO3tUsHPgT3nyL0HXWMpdf21KhIEFnDbgrbu4UYZm4lPrSyA==
+serverless-webpack@5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/serverless-webpack/-/serverless-webpack-5.3.0.tgz#27f49ada4a44c5b86052152efef88ccb12418dc3"
+  integrity sha512-Jdf0xelsbpqsq5r5jrSajV+8l8kF0Rz580VCfWbw96qXEa93aAI+XIBmBpkUp96xo6S/3pxXUeM15USikS2kGg==
   dependencies:
-    archiver "^2.0.0"
-    bluebird "^3.5.0"
-    fs-extra "^4.0.2"
+    archiver "^2.1.1"
+    bluebird "^3.5.4"
+    fs-extra "^4.0.3"
     glob "^7.1.2"
     is-builtin-module "^1.0.0"
-    lodash "^4.17.4"
-    semver "^5.4.1"
+    lodash "^4.17.11"
+    semver "^5.5.0"
     ts-node "^3.2.0"
 
 serverless@1.35.1:
