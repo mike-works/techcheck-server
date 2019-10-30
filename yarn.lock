@@ -1343,10 +1343,10 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@types/aws-lambda@8.10.33":
-  version "8.10.33"
-  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.33.tgz#64ad8f2e785e5c2cf86dc2d596c9a0b2e2e14ab5"
-  integrity sha512-BZ8lPY/vyUq+Bid/BgYrKbUF36SZYuGOAMgOq/VgqnTQnCn9GBo3HejKZ6xrUzA8zLf9Pjs707amkt4f7rWujw==
+"@types/aws-lambda@8.10.34":
+  version "8.10.34"
+  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.34.tgz#85b13bf1810cb6118e7e5dbff2b3e4e301d13be7"
+  integrity sha512-ewsBa0SjQYywUpDwck+4n89T0pXcRtIfIXi0aK/3qIQJNBoGvX7AKqFya9FWKdoG7ZcK3Iarl4QjlJiAW7jgPg==
 
 "@types/aws-sdk@2.7.0":
   version "2.7.0"
@@ -1389,10 +1389,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.11.7.tgz#57682a9771a3f7b09c2497f28129a0462966524a"
   integrity sha512-JNbGaHFCLwgHn/iCckiGSOZ1XYHsKFwREtzPwSGCVld1SGhOlmZw2D4ZI94HQCrBHbADzW9m4LER/8olJTRGHA==
 
-"@types/node@9.6.53":
-  version "9.6.53"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-9.6.53.tgz#dce152f939cc626dca9248ae8a84b93139a73183"
-  integrity sha512-I8M/wFHTVi2BBNENbm5rizhYdgaXMdJPWjGDB55ON2q8FTMOL6lIoYODDl0PyRZey42yesbvs0IbdHSHePtOLQ==
+"@types/node@9.6.54":
+  version "9.6.54"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-9.6.54.tgz#95a70d91ab420f98cb28408a5849384432a87f4a"
+  integrity sha512-OpPA4vBNGsvqEP3C8pukYm2v/nF9xySkKlRODn8Yg9PWnDNc+IC2UvIoZ3mdNDI9h9M80Ksc9J+1Rw5m905q8A==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
