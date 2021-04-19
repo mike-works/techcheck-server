@@ -40,7 +40,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.181.0"
+    "aws-sdk": "^2.884.0"
   },
   "commitlint": {
     "extends": [
