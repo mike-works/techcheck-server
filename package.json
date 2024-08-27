@@ -21,7 +21,7 @@
     "@mike-north/js-lib-semantic-release-config": "1.0.1",
     "@types/aws-lambda": "8.10.65",
     "@types/aws-sdk": "2.7.0",
-    "@types/chai": "4.1.7",
+    "@types/chai": "4.3.19",
     "@types/mocha": "5.2.7",
     "@types/node": "9.6.61",
     "chai": "4.3.1",
